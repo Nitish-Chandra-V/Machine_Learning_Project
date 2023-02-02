@@ -8,10 +8,8 @@ Application url:
 3. [VS Code IDE](https://code.visualstudio.com/download)
 4. [GIT cli](https://git-scm.com/downloads)
 5. [GIT Documentation](https://git-scm.com/docs/gittutorial)
-
-
-
-Creating Conda environment
+Creating Conda Environment
+...
 ...
 conda create -p venv python==3.7 -y
 ...
@@ -20,8 +18,6 @@ conda activate venv/
 OR
 ...
 conda activate venv
-...
-
 
 To add files to Git
 ...
@@ -31,13 +27,10 @@ OR
 ...
 git add <file_name>
 ...
-
-NOTE: To ignore file or folder from git we can write name of file/folder in .gitignore file
-
-
+Note: To ignore file or folder from git we can write name of file/folder in .gitignore file
 To check the git status
-...
-git staus
+....
+git status
 ...
 
 To check all version maintained by git
