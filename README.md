@@ -10,6 +10,9 @@ Application url : [HousingPredictor](https://ml-regression-app.herokuapp.com/)
 5. [GIT Documentation](https://git-scm.com/docs/gittutorial)
 
 Creating Conda Environment
+
 ...
-conda create -p venv python==3.7 -y
+conda create
 ...
+
+
