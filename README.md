@@ -21,37 +21,37 @@ OR
 conda activate venv
 ```
 
-**To add file to Git
+**To add file to Git**
 ```
 git add
 OR
 git add <file_name>
 ```
 
-**NOTE : To ignore file or folder from git we can write name of file/folder in .gitignore file
+**NOTE : To ignore file or folder from git we can write name of file/folder in .gitignore file**
 
 
-**To Check the Git status
+**To Check the Git status**
 ```
 git status
 ```
 
-**To check all version maintained by git
+**To check all version maintained by git**
 ```
 git log
 ```
 
-**To create version/commit all changes by git
+**To create version/commit all changes by git**
 ```
 git commit -m "message"
 ```
 
-**To send version/changes to github
+**To send version/changes to github**
 ```
 git push origin main
 ```
 
-**To check remote url
+**To check remote url**
 ```
 git remote -v
 ```
