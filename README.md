@@ -11,9 +11,14 @@ Application url : [HousingPredictor](https://ml-regression-app.herokuapp.com/)
 
 
 **Creating Conda Environment**
-'''
-conda create
-'''
+```
+conda create -p venv python==3.7 -y
+```
+conda activate venv/
+```
+OR
+```
+conda activate venv
 
 
 
