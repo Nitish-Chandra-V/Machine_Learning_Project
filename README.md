@@ -56,6 +56,19 @@ git push origin main
 git remote -v
 ```
 
+**To setup CI/CD pipeline in Heroku we need 3 information**
+1. AWS_email = nitishchandra05@gmail.com 
+2. AWS_APP_NAME = ml_regression_app
+
+
+**BUILD DOCKER IMAGE**
+```
+  <image_name>:<tagname>
+```
+>> NOTE : Image name for docker must be lowercase
+
+
+
 
 
 
