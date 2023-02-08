@@ -63,11 +63,32 @@ git remote -v
 
 **BUILD DOCKER IMAGE**
 ```
-  <image_name>:<tagname>
+ docker build -t <image_name>:<tagname>
 ```
->> NOTE : Image name for docker must be lowercase
+> NOTE : Image name for docker must be lowercase
 
 
+To list docker image
+```
+docker images
+```
+
+Run docker image
+```
+docker run -p 5000:5000 -e PORT=5000
+```
+
+To check running container in docker
+```
+docker ps
+```
+
+To stop docker container
+```
+docker stop <container_id>
+```
+
+ 
 
 
 
